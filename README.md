@@ -24,7 +24,13 @@ To use the notebook open Anaconda prompt use the command:
    3.	`pip install notebook dask matplotlib enum34 pandas python-dateutil numpy scipy sympy seaborn tqdm`
 
 ### 2. Installing PyGOM
-#### 2.1 Installing Microsoft C++ Build Tools (Windows OS ONLY)
+
+#### 2.1 Installing git.
+PyGOM's setup.py installation file need git to check which version it is. To install git download the installation file 
+from git's website below, open the installation file and follow instructions.
+* [https://git-scm.com/download](https://git-scm.com/download)
+
+#### 2.2 Installing Microsoft C++ Build Tools (Windows OS ONLY)
 PyGOM and a few other python packages require a C++ compiler. Unfortunately, Windows does not come with one. If you do not have a Windows machine skip the next section and go to section 2.2.
 1. Go to this link and download Microsoft C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/.
 2. Download Microsoft C++ Build Tools:
@@ -50,10 +56,10 @@ PyGOM and a few other python packages require a C++ compiler. Unfortunately, Win
 8. Once installed Visual Studio may start simply close it.
 9. Restart your computer.
 
-#### 2.2	Installing PyGOM
+#### 2.3	Installing PyGOM
 Unfortunately installing PyGOM via pip is not currently working. However, pygom can be downloaded and then installed locally.
 
-##### 2.2.1 Downloading PyGOM from GitHub
+##### 2.3.1 Downloading PyGOM from GitHub
 * If you are familiar with Git use the url [https://github.com/ukhsa-collaboration/pygom](https://github.com/ukhsa-collaboration/pygom) to clone PyGOM to your \*desired location\*.
 * If you are not familiar with Git:
   1. Go to [PyGOM's GitHub repository](https://github.com/ukhsa-collaboration/pygom).
@@ -63,7 +69,7 @@ Unfortunately installing PyGOM via pip is not currently working. However, pygom 
 ![image info](./readme_images/extracting_pygom.png)
   5. Click Extract.
 
-##### 2.2.2 Installing PyGOM into the conda pygom environment.
+##### 2.3.2 Installing PyGOM into the conda pygom environment.
 1. Open Anaconda prompt, if in you are running windows you may need to right click and select More->Run as Administrator.
 2. Enter commands: 
    1. `conda activate pygom`.
