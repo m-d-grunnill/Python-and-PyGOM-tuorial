@@ -9,7 +9,7 @@ Python is one of the most commonly used coding languages, hosting an extensive a
 The tutorial is given Jupyter Notebook "Python_and_PyGOM.ipnyb". Before using the notebook you will need to follow the installation instructions below.
 To use the notebook open Anaconda prompt use the command:
 * `conda activate pygom`
-* `cd *directory housing "Python_and_PyGOM.ipnyb"*` to navigate to the diretory housing "Python_and_PyGOM.ipnyb"
+* `cd *directory housing ""*` to navigate to the diretory housing "Python_and_PyGOM.ipnyb"
 * `jupyter notebook` This should open a web browser window. Double click "Python_and_PyGOM.ipnyb" to open it and begin tutorial.
 
 ## Installation Instructions
