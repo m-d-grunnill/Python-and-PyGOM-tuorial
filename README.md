@@ -75,7 +75,7 @@ Unfortunately installing PyGOM via pip is not currently working. However, pygom 
 1. Open Anaconda prompt, if in you are running windows you may need to right click and select More->Run as Administrator.
 2. Enter commands: 
    1. `conda activate pygom`.
-   2. `cd *donwload location*` replace \*donwload location\* with the name of the folder you wish to download pygom to.
+   2. `cd *download location*` replace \*download location\* with the name of the folder you wish to download pygom to.
    3. `git clone https://github.com/ukhsa-collaboration/pygom`
    4. `cd pygom`
    4. `python setup.py install`.
