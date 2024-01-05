@@ -72,22 +72,13 @@ Follow Steps 1-2 from [https://www.cyberciti.biz/faq/howto-compile-and-run-c-cpl
 #### 2.3	Installing PyGOM
 Unfortunately installing PyGOM via pip is not currently working. However, pygom can be downloaded and then installed locally.
 
-##### 2.3.1 Downloading PyGOM from GitHub
-* If you are familiar with Git use the url [https://github.com/ukhsa-collaboration/pygom](https://github.com/ukhsa-collaboration/pygom) to clone PyGOM to your \*desired location\*.
-* If you are not familiar with Git:
-  1. Go to [PyGOM's GitHub repository](https://github.com/ukhsa-collaboration/pygom).
-  2. Select Code->Download ZIP.
-  3. Right click on the pygom-master.zip in the Downloads folder and select Extract All.
-  4. Select \*desired location\* to extract pygom to by either typing the \*desired location\* in the field or selecting the Browse menu.
-![image info](./readme_images/extracting_pygom.png)
-  5. Click Extract.
-
-##### 2.3.2 Installing PyGOM into the conda pygom environment.
 1. Open Anaconda prompt, if in you are running windows you may need to right click and select More->Run as Administrator.
 2. Enter commands: 
    1. `conda activate pygom`.
-   2. `cd *desired location*`.
-   3. `python setup.py install`.
+   2. `cd *donwload location*` replace \*donwload location\* with the name of the folder you wish to download pygom to.
+   3. `git clone https://github.com/ukhsa-collaboration/pygom`
+   4. `cd pygom`
+   4. `python setup.py install`.
 3. Check pygom has been installed by entering the command `conda list` and looking for it in the output list of installed packages.
 
 
