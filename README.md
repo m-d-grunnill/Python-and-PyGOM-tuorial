@@ -30,7 +30,12 @@ PyGOM's setup.py installation file need git to check which version it is. To ins
 from git's website below, open the installation file and follow instructions.
 * [https://git-scm.com/download](https://git-scm.com/download)
 
-#### 2.2 Installing Microsoft C++ Build Tools (Windows OS ONLY)
+#### 2.2 Installing A C++ compiler
+
+PyGOM relies on Cython which uses C++ to speed up runtime. You will need a C++ compiler. This is different for different OSs. 
+For Windows see section 2.2A, Mac see section 2.2B and for Linux 2.2C.
+
+#### 2.2A Installing Microsoft C++ Build Tools (Windows OS ONLY)
 PyGOM and a few other python packages require a C++ compiler. Unfortunately, Windows does not come with one. If you do not have a Windows machine skip the next section and go to section 2.2.
 1. Go to this link and download Microsoft C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/.
 2. Download Microsoft C++ Build Tools:
@@ -55,6 +60,14 @@ PyGOM and a few other python packages require a C++ compiler. Unfortunately, Win
 
 8. Once installed Visual Studio may start simply close it.
 9. Restart your computer.
+
+#### 2.2B Installing Xcode (MAC ONLY)
+Follow the instructions outlined one either:
+* [https://support.wolfram.com/12799?src=system-modeler](https://support.wolfram.com/12799?src=system-modeler)
+* The first 1 min and 48 seconds of [https://www.youtube.com/watch?v=ENy4MdoOxug](https://www.youtube.com/watch?v=ENy4MdoOxug)
+
+#### 2.2C Installing GCC (Linux ONLY)
+Follow Steps 1-2 from [https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/)
 
 #### 2.3	Installing PyGOM
 Unfortunately installing PyGOM via pip is not currently working. However, pygom can be downloaded and then installed locally.
