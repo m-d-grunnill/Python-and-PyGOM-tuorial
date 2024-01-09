@@ -13,7 +13,7 @@ To use the notebook open Anaconda prompt use the command:
 * `jupyter notebook` This should open a web browser window. Double click "Python_and_PyGOM.ipnyb" to open it and begin tutorial.
 
 ## Download this repository
-To download this specific repository you need to first install git (see section 2.1). Then open git bash and enter the following commands:
+To download this specific repository you need to first install git (see section 2.1). Then open git bash (or terminal) and enter the following commands:
 1. `cd *download location*` replace \*download location\* with the name of the folder you wish to download this repository to.
 2. `git clone https://github.com/m-d-grunnill/Python-and-PyGOM-tutorial.git`
 
@@ -26,11 +26,11 @@ To update this repository in git bash:
 ### 1. Installing Python and Desired packages
 
 1. Go to [Anaconda's installation manual](https://docs.anaconda.com/free/anaconda/install/index.html) and follow instructions for installing anaconda for your particular OS.
-2. Once installed navigate to your programs/apps to anaconda->Anaconda prompt. Open anaconda prompt, if in you are running windows you may need to right click and select More->Run as Administrator.
+2. Once installed navigate to your programs/apps to anaconda->Anaconda prompt. Open anaconda prompt (or terminal), if in you are running windows you may need to right click and select More->Run as Administrator.
 3. Within Anaconda prompt execute the commands:
    1. `conda create --name pygom python==3.11.7` select y when prompted.
-   2.	`conda activate pygom`
-   3.	`pip install notebook dask matplotlib enum34 pandas python-dateutil numpy scipy sympy seaborn tqdm`
+   2. `conda activate pygom`
+   3. `pip install notebook dask matplotlib enum34 pandas python-dateutil numpy scipy sympy seaborn tqdm`
 
 ### 2. Installing PyGOM
 
@@ -81,7 +81,7 @@ Follow Steps 1-2 from [https://www.cyberciti.biz/faq/howto-compile-and-run-c-cpl
 #### 2.3	Installing PyGOM
 Unfortunately installing PyGOM via pip is not currently working. However, pygom can be downloaded and then installed locally.
 
-1. Open Anaconda prompt, if in you are running windows you may need to right click and select More->Run as Administrator.
+1. Open Anaconda prompt (or terminal), if in you are running windows you may need to right click and select More->Run as Administrator.
 2. Enter commands: 
    1. `conda activate pygom`.
    2. `cd *download location*` replace \*download location\* with the name of the folder you wish to download pygom to.
