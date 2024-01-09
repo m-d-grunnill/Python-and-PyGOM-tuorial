@@ -12,6 +12,15 @@ To use the notebook open Anaconda prompt use the command:
 * `cd *directory housing ""*` to navigate to the diretory housing "Python_and_PyGOM.ipnyb"
 * `jupyter notebook` This should open a web browser window. Double click "Python_and_PyGOM.ipnyb" to open it and begin tutorial.
 
+## Download this repository
+To download this specific repository you need to first install git (see section 2.1). Then open git bash and enter the following commands:
+1. `cd *download location*` replace \*download location\* with the name of the folder you wish to download this repository to.
+2. `git clone https://github.com/m-d-grunnill/Python-and-PyGOM-tutorial.git`
+
+To update this repository in git bash:
+1. `cd *repository*` replace \*repository\* with the location of this repository.
+2. `git pull`
+
 ## Installation Instructions
 
 ### 1. Installing Python and Desired packages
