@@ -2,11 +2,17 @@
 
 
 ## Abstract
-Python is one of the most commonly used coding languages, hosting an extensive array of packages in Data Science, Mathematics and Machine Learning. With a syntax that emphasis readability, Python is considered one of the easiest coding languages to learn. It is also free and open source. Therefore, Python code produced in a research project can be more easily shared with others and is more accessible outside of academic institutions. In this class, we will begin by introducing Jupyter Notebook (the medium in which this practical will be given) and the basics of python. We will then introduce the package Numpy and Pandas. Numpy provides support for handling multidimensional arrays and matrices. Pandas provides access to Dataframe and Serries objects. Dataframes being similar to spreadsheets, with Serries being a one-dimensional variant. The final section of this class with introduce PyGOM. PyGOM provides a toolbox for modeling with Ordinary Differential Equations (ODEs). Having been developed by the UK Health Security Agency, PyGOM has an emphasis on epidemiological modelling. Providing functionality not only for solving ODEs, parameter estimation and stochastic simulation, but methods for deriving the basic reproduction number R<sub>0</sub>. 
+Python is one of the most commonly used coding languages, hosting an extensive array of packages in Data Science, Mathematics
+and Machine Learning. With a syntax that emphasis readability, Python is considered one of the easiest coding languages 
+to learn. It is also free and open source. Therefore, Python code produced in a research project can be more easily shared
+with others and is more accessible outside of academic institutions. In this class, we will begin by introducing Jupyter Notebook (the medium in which this practical will be given) and the basics of python.
+We will then introduce several useful python packages, starting with Numpy and Matplotlib. Numpy provides support for handling
+multidimensional arrays and matrices. Matplotlib provdes features for producing publishable graphics. The final mandatory section of this class with introduce PyGOM. PyGOM provides a toolbox for modeling with Ordinary Differential Equations (ODEs). Having been developed by the UK Health Security Agency, PyGOM has an emphasis on epidemiological modelling. Providing functionality not only for solving ODEs, parameter estimation and stochastic simulation, but methods for deriving the basic reproduction number R<sub>0</sub>. There is also an optional section covering other useful python packages.
 
 ## Instructions
 
-The tutorial is given Jupyter Notebook "Python_and_PyGOM.ipnyb". Before using the notebook you will need to follow the installation instructions below.
+This 2 part tutorial is given in 2 Jupyter Notebooks "Basics_of_Python.ipnyb" (Part 1) and "Python_and_PyGOM.ipnyb" (part 2). These is some bonus material
+on the use of Sympy in "R0 in Sympy and PyGOM".  Before using the notebook you will need to follow the installation instructions below.
 To use the notebook open Anaconda prompt use the command:
 * `conda activate pygom`
 * `cd *directory housing ""*` to navigate to the diretory housing "Python_and_PyGOM.ipnyb"
